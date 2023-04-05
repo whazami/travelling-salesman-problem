@@ -3,15 +3,15 @@
 This project aims to solve the Travelling Salesman Problem (TSP) using a genetic algorithm. The goal is to find the shortest possible route for a salesman who must visit all cities exactly once and then return to the origin city.
 
 <div align="center">
-<img src="./assets/demo.gif" alt="demo">
+  <img src="./assets/demo.gif" alt="demo" width=650>
 </div>
 
 ## How it works
 
 * The program starts with an initial population of voyagers, each with a random path visiting all cities.
 * For each generation:
-* The best voyagers (based on the total distance of their path) are selected.
-* The genetic algorithm applies crossover and mutation operations to create the next generation.
+  * The best voyagers (based on the total distance of their path) are selected.
+  * The genetic algorithm applies crossover and mutation operations to create the next generation.
 * The best path found by the algorithm is displayed on the console.
 
 During this time, you can visualize the progress of the algorithm on the *turtle*'s window. This window displays the number of cities, the current generation and the best path (including the distance and actual route) for that generation.
