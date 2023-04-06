@@ -33,3 +33,7 @@ git clone https://github.com/whazami/travelling-salesman-problem.git
 cd travelling-salesman-problem
 python3 main.py
 ```
+
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
